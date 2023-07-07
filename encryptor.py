@@ -25,3 +25,4 @@ def decrypt_file(file_path):
     decrypted_content = bytes([(byte - 1) % 256 for byte in encrypted_content])
 
     # Create a new file with the decrypted content
+    decrypted_file_path = file_path.replace('-encrypted', '-decrypted')
