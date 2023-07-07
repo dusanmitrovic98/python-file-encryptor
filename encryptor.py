@@ -17,3 +17,4 @@ def encrypt_file(file_path):
 
     print(f"Encryption complete. Encrypted file saved as {encrypted_file_path}")
 
+def decrypt_file(file_path):
