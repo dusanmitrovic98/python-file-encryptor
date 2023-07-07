@@ -13,3 +13,4 @@ def encrypt_file(file_path):
     file_name_without_extension, file_extension = os.path.splitext(file_name)
     encrypted_file_path = f"{file_name_without_extension}-encrypted{file_extension}"
     with open(encrypted_file_path, 'wb') as encrypted_file:
+        encrypted_file.write(encrypted_content)
