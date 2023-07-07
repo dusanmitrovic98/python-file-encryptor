@@ -29,3 +29,4 @@ def decrypt_file(file_path):
     with open(decrypted_file_path, 'wb') as decrypted_file:
         decrypted_file.write(decrypted_content)
 
+    print(f"Decryption complete. Decrypted file saved as {decrypted_file_path}")
