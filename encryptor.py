@@ -33,3 +33,4 @@ def decrypt_file(file_path):
 
 def main():
     action = input("Enter 'encrypt' or 'decrypt' to choose an action: ")
+    file_path = input("Enter the file path: ")
