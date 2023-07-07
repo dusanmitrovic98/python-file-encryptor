@@ -31,3 +31,4 @@ def decrypt_file(file_path):
 
     print(f"Decryption complete. Decrypted file saved as {decrypted_file_path}")
 
+def main():
