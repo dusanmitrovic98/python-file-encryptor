@@ -39,3 +39,4 @@ def main():
         encrypt_file(file_path)
     elif action == 'decrypt':
         decrypt_file(file_path)
+    else:
