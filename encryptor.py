@@ -22,3 +22,4 @@ def decrypt_file(file_path):
         encrypted_content = encrypted_file.read()
 
     # Perform decryption
+    decrypted_content = bytes([(byte - 1) % 256 for byte in encrypted_content])
