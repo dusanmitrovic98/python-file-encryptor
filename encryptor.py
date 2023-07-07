@@ -28,3 +28,4 @@ def decrypt_file(file_path):
     decrypted_file_path = file_path.replace('-encrypted', '-decrypted')
     with open(decrypted_file_path, 'wb') as decrypted_file:
         decrypted_file.write(decrypted_content)
+
