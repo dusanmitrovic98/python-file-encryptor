@@ -15,3 +15,4 @@ def encrypt_file(file_path):
     with open(encrypted_file_path, 'wb') as encrypted_file:
         encrypted_file.write(encrypted_content)
 
+    print(f"Encryption complete. Encrypted file saved as {encrypted_file_path}")
