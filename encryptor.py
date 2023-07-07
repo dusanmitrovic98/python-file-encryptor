@@ -26,3 +26,4 @@ def decrypt_file(file_path):
 
     # Create a new file with the decrypted content
     decrypted_file_path = file_path.replace('-encrypted', '-decrypted')
+    with open(decrypted_file_path, 'wb') as decrypted_file:
