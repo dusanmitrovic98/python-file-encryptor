@@ -42,3 +42,4 @@ def main():
     else:
         print("Invalid action. Please choose 'encrypt' or 'decrypt'.")
 
+if __name__ == '__main__':
