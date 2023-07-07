@@ -20,3 +20,4 @@ def encrypt_file(file_path):
 def decrypt_file(file_path):
     with open(file_path, 'rb') as encrypted_file:
         encrypted_content = encrypted_file.read()
+
