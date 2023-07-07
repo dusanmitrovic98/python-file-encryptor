@@ -36,3 +36,4 @@ def main():
     file_path = input("Enter the file path: ")
 
     if action == 'encrypt':
+        encrypt_file(file_path)
