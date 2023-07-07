@@ -5,3 +5,4 @@ def encrypt_file(file_path):
         content = file.read()
 
     # Perform encryption
+    encrypted_content = bytes([(byte + 1) % 256 for byte in content])
