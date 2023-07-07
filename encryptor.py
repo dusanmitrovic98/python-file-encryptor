@@ -40,3 +40,4 @@ def main():
     elif action == 'decrypt':
         decrypt_file(file_path)
     else:
+        print("Invalid action. Please choose 'encrypt' or 'decrypt'.")
