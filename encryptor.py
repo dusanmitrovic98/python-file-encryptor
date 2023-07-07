@@ -9,3 +9,4 @@ def encrypt_file(file_path):
 
     # Create a new file with the encrypted content
 
+    file_name = os.path.basename(file_path)
